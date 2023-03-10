@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/linked_list/src/Homework22_0.java",
+    "code/linked_list/src/Homework22_1.java",
+    "code/linked_list/src/Homework22_2.java",
+    "code/linked_list/src/Task1.java",
+    "code/linked_list/src/Task2_1.java",
+    "code/linked_list/src/Task2_2.java"
+  ],
+  "video": ""
+}

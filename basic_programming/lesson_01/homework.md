@@ -13,3 +13,19 @@
 "Мне ... лет"
 "Я из ..."
 ```
+
+Задача 3.
+ 
+Исправте все ошибки в программе:
+```java
+public class Main {
+   public static void main(String[] args) {
+     System.Оut.Рrintln("Hello! ")
+     system.out.println("I'am Java programmer ")
+     System.out.print("This program is does not work, ")
+     System.out.println("but I can make it good ")
+   }
+   System.out.println("---- done ------");
+}
+```
+

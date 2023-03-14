@@ -1,3 +1,6 @@
+  [Презентация](https://drive.google.com/file/d/1JbiW_Camc779KaAk7W7ttg6csy0YkaO7/view?usp=share_link)  
+
+
 Изучать язык программирования обычно начинают с программы 'Hello, World!', которая выводит этот текст на экран.
 ```console
 Hello, World!

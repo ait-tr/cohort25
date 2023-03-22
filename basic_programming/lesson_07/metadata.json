@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/d20230322_boolean_intro/src/Main.java",
+    "code/homework_solution_2023_03_21_t1/src/h20230322_t1.java",
+    "code/homework_solution_2023_03_21_t1/src/h20230322_t2.java",
+    "code/homework_solution_2023_03_21_t1/src/h20230322_t3.java",
+    "code/homework_solution_2023_03_21_t1/src/h20230322_t4.java"
+  ],
+  "video": ""
+}

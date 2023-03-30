@@ -3,10 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-"code/demo20230330_1/src/Main.java",
-"code/demo20230330_2/src/Main.java",
-"code/cons20230330_1/src/Main.java",
-"code/dz20230330_3/src/Main.java"
+    "code/h2023_03_29/src/H2023_03_29_t1.java",
+    "code/h2023_03_29/src/H2023_03_29_t2.java",
+    "code/d2023_03_29_method/src/Main.java"
   ],
   "video": ""
 }

@@ -1,6 +1,6 @@
 # Цикл `while`
 
-Ссылка на презентацию: [ссылка](https://github.com/ait-tr/cohort25/blob/main/basic_programming/lesson_13/while_loop.pdf)
+Ссылка на презентацию: [ссылка](https://github.com/ait-tr/cohort25/blob/main/basic_programming/lesson_14/while_loop.pdf)
 
 **Циклы** – операторы многократного выполнения действий.
 

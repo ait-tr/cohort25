@@ -3,13 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/h2023_04_03/src/H2023_04_03_t1.java",
-    "code/h2023_04_03/src/H2023_04_03_t2.java",
-    "code/h2023_04_03/src/H2023_04_03_t3.java",
-    "code/d2023_04_03/src/Accum.java",
-    "code/d2023_04_03/src/Break.java",
-    "code/d2023_04_03/src/ElseIf.java",
-    "code/d2023_04_03/src/ForLoop.java"
+"code/demo20230404_1/src/Main.java",
+"code/demo20230404_2/src/Main.java",
+"code/demo20230404_3/src/Main.java",
+"code/demo20230404_4/src/Main.java",
+"code/demo20230404_5/src/Main.java",
+"code/dz20230404_1/src/Main.java"
   ],
   "video": ""
 }

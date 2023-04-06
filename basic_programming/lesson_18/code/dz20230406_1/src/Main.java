@@ -12,40 +12,22 @@ import java.util.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("введите имя:");
-        String name = scanner.nextLine();
-        if (!name.equals("andy")) {
-            char[] array = createArray(); //
-            reversePrintArray(array);
-        } else {
-            char[] array = createArray2(); //
-            reversePrintArray2(array);
-        }
+        char[] array = createArray(); //
+        reversePrintArray(array);
     }
 
     //createArray - создать массив
-    //reversePrintArray - печатает массив в обратном порядке
     public static char[] createArray(){
-        char[] arr = {'j', 'l', 'k', 't', 'y', 'u'}; // краткая форма
+        char[] arr = {'j', 'l', 'k', 't', 'y', 'u'}; // краткая форма инициализации массива
         return arr;
     }
 
-    public static char[] createArray2(){
-        char[] arr = {'j', 'l', 'k', 't'}; // краткая форма
-        return arr;
-    }
+    //reversePrintArray - печатает массив в обратном порядке
     public static void reversePrintArray(char[] arr1){
-        for(int i=arr1.length-1; i>=0; i--){
+        for(int i=arr1.length-1; i>=0; i--){    // i от последнего индекса до нулевого
             System.out.print(arr1[i]+" ");
         }
         System.out.println();
     }
 
-    public static void reversePrintArray2(char[] arr1){
-        for(int i=arr1.length-1; i>=0; i--){
-            System.out.println(arr1[i]+" ");
-        }
-        System.out.println();
-    }
 }

@@ -3,8 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/d2023_04_17/src/H2023_04_17_t1.java",
-    "code/d2023_04_17/src/H2023_04_17_t2.java",
+    "./code/d2023_04_17/src/H2023_04_17_t1.java",
+    "./code/d2023_04_17/src/H2023_04_17_t2.java",
     "code/d2023_04_17/src/Main.java",
     "code/d2023_04_17/src/Book.java",
     "code/d2023_04_17/src/Dog.java",

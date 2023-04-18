@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/dz20230418_1/src/Bicycle.java",
+"code/dz20230418_1/src/Main.java",  
+"code/d20230418_1/src/Main.java",
+"code/d20230418_1/src/Phone.java",
+"code/d20230418_2/src/Main.java",
+"code/d20230418_2/src/MyDate.java",
+"code/d20230418_2/src/Person.java",
+"code/d20230418_2/src/Persson2.java",
+"code/d20230418_3/src/Main.java",
+"code/d20230418_3/src/Pizza.java"
+],
+  "video": ""
+}

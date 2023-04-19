@@ -1,6 +1,6 @@
 
 # `ArrayList`
-Ссылка на презентацию: [ссылка](https://github.com/ait-tr/cohort25/blob/main/basic_programming/lesson_15/arrayList.pdf)
+Ссылка на презентацию: [ссылка](https://github.com/ait-tr/cohort25/blob/main/basic_programming/lesson_25/arrayList.pdf)
 
 Программистам очень не нравилось одно свойство массива – его размер нельзя изменять. Что делать, если нужно сохранить в массиве ещё три элемента, а свободное место только одно?
 

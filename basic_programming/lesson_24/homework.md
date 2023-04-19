@@ -5,7 +5,7 @@
 b. Создайте класс Person со следующими атрибутами 
     String firstName, 
     String lastName, 
-    MyDate birtday. 
+    MyDate birtday
     Напишите методы конструктор, toString.
     
 с. Создайте класс Account со следующими атрибутами:

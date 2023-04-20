@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/d20230420_1/src/Main.java",
+"code/d20230420_2/src/Main.java",
+"code/d20230420_3/src/Main.java",
+"code/d20230420_4/src/Main.java",
+"code/d20230420_4/src/MySmartArray.java",
+"code/dz20230420_1/src/Car.java",
+"code/dz20230420_1/src/Main.java",
+"code/dz20230420_2/src/Main.java"
+  ],
+  "video": ""
+}

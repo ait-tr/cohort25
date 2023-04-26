@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/h2023_04_26_t1/src/Main.java",
+    "code/h2023_04_26_t1/src/Account.java",
+    "code/h2023_04_26_t2/src/Main.java",
+    "code/d2023_04_26_t1/src/Main.java",
+    "code/d2023_04_26_t1/src/Client.java",
+    "code/d2023_04_26_t2/src/Main.java",
+    "code/d2023_04_26_t2/src/input.txt"
+  ],
+  "video": ""
+}

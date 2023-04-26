@@ -24,8 +24,8 @@ new BufferedReader(new FileReader("src/main/resources/input.txt"));
 В общем, мы можем настроить BufferedReader так, чтобы он принимал любой входной поток в качестве базового источника. Мы
 можем сделать это, используя InputStreamReader и обернув его в конструктор:
 
-Читатель BufferedReader =
-новый BufferedReader (новый InputStreamReader (System.in));
+ BufferedReader reader =
+new BufferedReader (new InputStreamReader (System.in));
 
 ### Пример использования с циклом, для прочтения всех строк
 

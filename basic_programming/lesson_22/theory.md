@@ -11,7 +11,7 @@ try {
   num = scanner.nextInt(); // может быть выброшено исключение, если введено не число
     .....    
     
-} catch (ArithmeticException e) {
+} catch (ArithmeticException Genre) {
   System.out.println("Ошибка! Нельзя делить на ноль!");
 }
 ```

@@ -3,6 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+"code/cons20230502_1/src/Book.java",
+"code/cons20230502_1/src/Genre.java",
+"code/cons20230502_1/src/Main.java",
 "code/d20230502_1/src/DaysOfWeek.java",
 "code/d20230502_1/src/Main.java",
 "code/d20230502_2/src/DaysOfWeek.java",

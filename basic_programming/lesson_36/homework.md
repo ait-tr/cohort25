@@ -11,7 +11,7 @@
 Пусть в классе будет метод: 
 - `printPassengers()`, который выводит всех пассажиров в печать.
 - `pickPassenger(Passenger passenger)` - метод добавляет пассажира на борт, если транспорт не заполнен (см. capacity). 
-- (дополнительно) `dropPassenger(Passenger passenger)` - метод высаживает указанного пассажира. 
+- (дополнительно) `dropPassenger(String passengerName)` - метод высаживает пассажира c указанным именем. 
 
 Создайте производный от Transport класс Ship (корабль) с полями: 
 - `captainName` - имя капитана. 

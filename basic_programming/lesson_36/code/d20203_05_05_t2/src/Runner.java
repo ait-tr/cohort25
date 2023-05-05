@@ -1,4 +1,4 @@
-public class Runner extends Sportman {
+public class Runner extends Sporstman {
   private double maxSpeed;
   private double maxDistance;
 

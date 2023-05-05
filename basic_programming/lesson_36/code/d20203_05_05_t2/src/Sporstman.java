@@ -1,4 +1,4 @@
-public class Sportman {
+public class Sporstman {
   private String name;
   private int age;
 
@@ -10,7 +10,7 @@ public class Sportman {
     return age;
   }
 
-  public Sportman(String name, int age) {
+  public Sporstman(String name, int age) {
     this.name = name;
     this.age = age;
   }

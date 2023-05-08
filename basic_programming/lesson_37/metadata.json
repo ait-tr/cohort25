@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/d2023_05_08/src/Main.java",
+    "./code/d2023_05_08/src/Passenger.java",
+    "./code/d2023_05_08/src/Transport.java",
+    "./code/d2023_05_08/src/Ship.java",
+    "./code/d2023_05_08/src/Person.java",
+    "./code/d2023_05_08_t1/src/Main.java",
+    "./code/d2023_05_08_t1/src/WineBottle.java"
+
+ ],
+  "video": ""
+}

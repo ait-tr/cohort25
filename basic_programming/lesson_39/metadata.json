@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/h2023_05_10/src/Main.java",
+    "./code/h2023_05_10/src/Figure.java",
+    "./code/h2023_05_10/src/Circle.java",
+    "./code/h2023_05_10/src/Rectangle.java",
+    "./code/h2023_05_10/src/Square.java",
+    "./code/d2023_05_10_t2/src/Main.java",
+    "./code/d2023_05_10_t2/src/Product.java",
+    "./code/d2023_05_10_t2/src/Alcohol.java",
+    "./code/d2023_05_10_t2/src/Tire.java",
+    "./code/d2023_05_10_t2/src/Person.java",
+    "./code/d2023_05_10_t2/src/School.java",
+    "./code/d2023_05_10_t2/src/DrivingSchool.java",
+    "./code/d2023_05_10_t1/src/Main.java",
+    "./code/d2023_05_10_t1/src/Animal.java",
+    "./code/d2023_05_10_t1/src/Dolphine.java"
+ ],
+  "video": ""
+}

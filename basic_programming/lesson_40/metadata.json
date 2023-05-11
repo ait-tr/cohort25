@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo20230511_1/src/Main.java",
+"code/demo20230511_1/src/Person.java",
+"code/demo20230511_1/src/qwe/Student.java",
+"code/dz20230511_1/src/Employee.java",
+"code/dz20230511_1/src/ITEngineer.java",
+"code/dz20230511_1/src/Main.java",
+"code/dz20230511_1/src/QAEngineer.java",
+"code/cons20230504_1/src/Booking.java",
+"code/cons20230504_1/src/BookingProcessing.java",
+"code/cons20230504_1/src/Main.java",
+"code/cons20230504_1/src/MyDate.java",
+"code/cons20230504_1/src/Person.java",
+"code/cons20230504_1/src/Room.java",
+"code/cons20230504_1/src/RoomCategory.java"
+ ],
+  "video": ""
+}

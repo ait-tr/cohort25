@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/h2023_05_15/src/Main.java",
+    "./code/h2023_05_15/src/Orange.java",
+    "./code/h2023_05_15/src/OrangeTree.java",
+    "./code/d2023_05_15_t1/src/Main.java",
+    "./code/d2023_05_15_t1/src/Swimmable.java",
+    "./code/d2023_05_15_t1/src/Flyable.java",
+    "./code/d2023_05_15_t1/src/Duck.java",
+    "./code/d2023_05_15_t1/src/Fish.java",
+    "./code/d2023_05_15_t1/src/Vehicle.java",
+    "./code/d2023_05_15_t1/src/Transport.java",
+    "./code/d2023_05_15_t1/src/Car.java",
+    "./code/d2023_05_15_t1/src/Bicycle.java",
+    "./code/d2023_05_15_t1/src/ParentInterface.java",
+    "./code/d2023_05_15_t1/src/ChildInterface.java",
+    "./code/d2023_05_15_t1/src/Example.java"
+  ],
+  "video": ""
+}

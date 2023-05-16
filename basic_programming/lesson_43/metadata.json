@@ -3,6 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+"code/cons/src/Main.java",
+"code/cons/src/MyDate.java",
+"code/demo20230516_1/src/Auto.java",
+"code/demo20230516_1/src/ComparatorAutoByBrand.java",
+"code/demo20230516_1/src/ComparatorAutoByYear.java",
+"code/demo20230516_1/src/Main.java",
 "code/dz20230516_1/src/Balloon.java",
 "code/dz20230516_1/src/Flyable.java",
 "code/dz20230516_1/src/Main.java",
@@ -11,7 +17,6 @@
 "code/dz20230516_2/src/Flyable.java",
 "code/dz20230516_2/src/FlyableClass.java",
 "code/dz20230516_2/src/Main.java",
-"code/dz20230516_2/src/Plane.java"
-  ],
+"code/dz20230516_2/src/Plane.java"  ],
   "video": ""
 }

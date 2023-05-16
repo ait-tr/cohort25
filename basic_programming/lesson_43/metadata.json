@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/dz20230516_1/src/Balloon.java",
+"code/dz20230516_1/src/Flyable.java",
+"code/dz20230516_1/src/Main.java",
+"code/dz20230516_1/src/Plane.java",
+"code/dz20230516_2/src/Balloon.java",
+"code/dz20230516_2/src/Flyable.java",
+"code/dz20230516_2/src/FlyableClass.java",
+"code/dz20230516_2/src/Main.java",
+"code/dz20230516_2/src/Plane.java"
+  ],
+  "video": ""
+}

@@ -1,0 +1,19 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/h2023_05_17/src/Main.java",
+    "./code/h2023_05_17/src/Student.java",
+    "./code/h2023_05_17/src/StudentsByHomeworkComparator.java",
+    "./code/h2023_05_17/src/StudentsByNamesComparator.java",
+    "./code/d2023_05_17_t1/src/Main.java",
+    "./code/d2023_05_17_t1/src/Item.java",
+    "./code/d2023_05_17_t1/src/Bicycle.java",
+    "./code/d2023_05_17_t1/src/Suitcase.java",
+    "./code/d2023_05_17_t1/src/ItemByDateComparator.java",
+    "./code/d2023_05_17_t1/src/ItemByDiscountPriceComparator.java",
+    "./code/d2023_05_17_t1/src/ItemByRatingComparator.java"
+  ],
+  "video": ""
+}

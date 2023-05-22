@@ -1,9 +1,9 @@
 ## Задание 1 
 
 Создайте абстрактный класс StringTools, со статическими методами:
-- String FirstToUpperCase(String str);   
+- String firstToUpperCase(String str);   
 Данный метод должен возвращать новую строку, в которой первый символ возведен в верхний регистр.   
-Например, FirstToUpperCase("apple") -> "apple';  
+Например, firstToUpperCase("apple") -> "apple';  
 
 
 - boolean isStartingFromCapital(String str); 

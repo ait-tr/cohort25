@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/h2023_05_22/src/Apartment.java",
+    "./code/h2023_05_22/src/Forest.java",
+    "./code/h2023_05_22/src/House.java",
+    "./code/h2023_05_22/src/Land.java",
+    "./code/h2023_05_22/src/LandPurpose.java",
+    "./code/h2023_05_22/src/Main.java",
+    "./code/h2023_05_22/src/Person.java",
+    "./code/h2023_05_22/src/PropertyByAdressComparator.java",
+    "./code/h2023_05_22/src/PropertyByAreaComparator.java",
+    "./code/h2023_05_22/src/PropertyByPriceComparator.java",
+    "./code/h2023_05_22/src/PropertyByTaxComparator.java",
+    "./code/h2023_05_22/src/RealProperty.java",
+    "./code/simple-calculator/README.md",
+    "./code/simple-calculator/src/main/java/de/ait/Main.java",
+    "./code/simple-calculator/src/main/java/de/ait/Calculator.java",
+    "./code/simple-calculator/src/test/java/de/ait/CalculatorTest.java",
+    "./code/simple-calculator/pom.xml"
+  ],
+  "video": ""
+}

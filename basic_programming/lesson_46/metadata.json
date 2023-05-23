@@ -17,9 +17,9 @@
     "code/src/exceptions/checked_exceptions/FileValidator.java",
     "code/src/exceptions/checked_exceptions/Main.java",
     "code/src/exceptions/checked_exceptions/Main01.java",
-    "code/src/exceptions/checked_exceptions/repository/Main.java",
-    "code/src/exceptions/checked_exceptions/repository/WordsRepository.java",
-    "code/src/exceptions/checked_exceptions/repository/WordTransformer.java"
+    "code/src/exceptions/repository/Main.java",
+    "code/src/exceptions/repository/WordsRepository.java",
+    "code/src/exceptions/repository/WordTransformer.java"
   ],
   "video": ""
 }

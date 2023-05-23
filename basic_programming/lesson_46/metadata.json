@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/exceptions/examples/MainArithmeticException.java",
+    "code/src/exceptions/examples/MainArrayIndexOutOfBoundsException.java",
+    "code/src/exceptions/examples/MainNullPointerException.java",
+    "code/src/exceptions/examples/MainOutOfMemoryError.java",
+    "code/src/exceptions/examples/MainFileNotFound.java",
+    "code/src/exceptions/examples/MainExceptionWithStackTrace.java",
+    "code/src/exceptions/throw_exception/Main.java",
+    "code/src/exceptions/throw_exception/PasswordException.java",
+    "code/src/exceptions/try_catch/Main.java",
+    "code/src/exceptions/try_catch/Main02.java",
+    "code/src/exceptions/try_catch/Main03.java",
+    "code/src/exceptions/checked_exceptions/FileValidator.java",
+    "code/src/exceptions/checked_exceptions/Main.java",
+    "code/src/exceptions/checked_exceptions/Main01.java",
+    "code/src/exceptions/checked_exceptions/repository/Main.java",
+    "code/src/exceptions/checked_exceptions/repository/WordsRepository.java",
+    "code/src/exceptions/checked_exceptions/repository/WordTransformer.java"
+  ],
+  "video": ""
+}

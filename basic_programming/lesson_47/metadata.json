@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/weather-app/src/main/java/de/ait/Main.java",
+    "./code/weather-app/src/main/java/de/ait/Weather.java",
+    "./code/weather-app/src/test/java/de/ait/MainTest.java",
+    "./code/weather-app/src/test/java/de/ait/WeatherTest.java"
+  ],
+  "video": ""
+}

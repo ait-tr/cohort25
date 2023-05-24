@@ -16,7 +16,7 @@
    - Пример работы метода:
      - getWindDescription(20, true)  -> "Gusty Moderate Breeze with speed of 20 km"
      - getWindDescription(20, false) -> "Moderate Breeze with speed of 20 km"
-     - getWindDescription(30, true)  -> "Gusty Moderate Breeze with speed of 30 km"
-     - getWindDescription(30, false) -> "Moderate Breeze with speed of 30 km"
+     - getWindDescription(30, true)  -> "Gusty Fresh Breeze with speed of 30 km"
+     - getWindDescription(30, false) -> "Fresh Breeze with speed of 30 km"
 
 Создайте тесты для методов.

@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/SimpleProject/src/main/java/de/ait/services/UsersServiceImpl.java",
+    "code/SimpleProject/src/main/java/de/ait/app/Main.java",
+    "code/SimpleProject/src/main/java/de/ait/repositories/UsersRepositoryListImpl.java",
+    "code/SimpleProject/src/main/java/de/ait/services/UsersService.java",
+    "code/SimpleProject/src/main/java/de/ait/models/User.java",
+    "code/SimpleProject/src/main/java/de/ait/repositories/UsersRepositoryTextFileImpl.java",
+    "code/SimpleProject/src/main/java/de/ait/repositories/UsersRepository.java",
+    "code/SimpleProject/pom.xml"
+  ],
+  "video": ""
+}

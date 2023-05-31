@@ -80,7 +80,7 @@ public class UsersRepositoryTextFileImpl implements UsersRepository {
                 line = bufferedReader.readLine(); // считали следующую строку
             }
         } catch (IOException e) {
-            System.err.println("Произошла ошибка");
+            throw new IllegalArgumentException("Произошла ошибка");
         }
 
         return users;

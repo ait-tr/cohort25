@@ -15,7 +15,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         // компонент, который содержит информацию о файле
         // содержит логику работы с этим файлом - получение всех пользователей
-        UsersRepository usersRepository = new UsersRepositoryTextFileImpl("users2.txt");
+        UsersRepository usersRepository = new UsersRepositoryTextFileImpl("users.txt");
         UsersRepository testUserRepository = new UsersRepositoryListImpl();
         // компонент, который содержит логику самой программы - получение имен всех пользователей
         UsersService usersService = new UsersServiceImpl(usersRepository);

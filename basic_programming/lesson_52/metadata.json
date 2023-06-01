@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/nested/example01/Main.java",
+    "code/src/nested/example01/Pair.java",
+    "code/src/nested/example01/Table.java",
+    "code/src/nested/example01/TablePrinter.java",
+    "code/src/nested/example02/Main.java",
+    "code/src/nested/example02/Table.java",
+    "code/src/nested/example03/Main.java",
+    "code/src/nested/example03/Table.java"
+  ]
+}

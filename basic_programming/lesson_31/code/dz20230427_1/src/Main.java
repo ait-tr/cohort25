@@ -18,7 +18,7 @@ import java.util.Scanner;
      - Тип ключа string - это номер знака "d812ce".
      - Тип значения - это Car.
 3. Заполните словарь парами ключ-значение
-4. Создайте в классе Main метод `public static void printCarInfo(HashMap<String, Car> carsMap)`
+4. Создайте в классе nested.example01.Main метод `public static void printCarInfo(HashMap<String, Car> carsMap)`
    - Метод должен спрашивать у клиента номер автомобиля
    - Метод должен выводить в консоль информации про этот автомобиль в следующем виде:
 `Машина марки <brand> с собственником <owner> с телефоном <telephone>, бензин: <gas>`

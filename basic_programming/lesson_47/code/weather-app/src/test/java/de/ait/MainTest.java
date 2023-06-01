@@ -45,8 +45,8 @@ class MainTest {
     @ParameterizedTest
     @ValueSource(strings = {"asdasdasdas@mail.ru", "adsada@gmail.de", "asdasdad@yandex.com"})
     public void isValidLogin_test2(String login) {
-      assertTrue(isValidLogin(login));// вызвали метод без слова Main
-      // это возможно благодаря import static de.ait.Main.isValidLogin;
+      assertTrue(isValidLogin(login));// вызвали метод без слова nested.example01.Main
+      // это возможно благодаря import static de.ait.nested.example01.Main.isValidLogin;
     }
 
   }

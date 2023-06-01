@@ -18,7 +18,7 @@
  
 Исправте все ошибки в программе:
 ```java
-public class Main {
+public class nested.example01.Main {
    public static void main(String[] args) {
      System.Оut.Рrintln("Hello! ")
      system.out.println("I'am Java programmer ")

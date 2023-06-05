@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/d2023_06_02/src/Dictionary.java",
+    "./code/d2023_06_02/src/Main.java",
+    "./code/d2023_06_02_recursion/src/Main.java"
+  ]
+}

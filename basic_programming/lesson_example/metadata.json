@@ -3,12 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/linked_list/src/Homework22_0.java",
-    "code/linked_list/src/Homework22_1.java",
-    "code/linked_list/src/Homework22_2.java",
-    "code/linked_list/src/Task1.java",
-    "code/linked_list/src/Task2_1.java",
-    "code/linked_list/src/Task2_2.java"
-  ],
-  "video": ""
+    "./code/homework_2023_06_95/src/Main.java",
+    "./code/anonymous/src/Main.java",
+    "./code/anonymous/src/Animal.java",
+    "./code/anonymous/src/Flyable.java",
+    "./code/anonymous/src/Panda.java",
+    "./code/anonymous/src/Plant.java",
+    "./code/lambdas/src/Calculator.java",
+    "./code/lambdas/src/CanWelcome.java",
+    "./code/lambdas/src/Main.java",
+    "./code/lambdas/src/Operationable.java",
+    "./code/lambdas/src/Printable.java"
+  ]
+
 }

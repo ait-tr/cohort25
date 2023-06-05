@@ -3,8 +3,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "./code/d2023_06_02/src/Dictionary.java",
-    "./code/d2023_06_02/src/Main.java",
-    "./code/d2023_06_02_recursion/src/Main.java"
+    "./code/anonymous/src/Animal.java",
+    "./code/anonymous/src/Flyable.java",
+    "./code/anonymous/src/Main.java",
+    "./code/anonymous/src/Panda.java",
+    "./code/anonymous/src/Plant.java",
+    "./code/homework_2023_06_95/src/Main.java",
+    "./code/lambdas/src/Calculator.java",
+    "./code/lambdas/src/Main.java",
+    "./code/lambdas/src/CanWelcome.java",
+    "./code/lambdas/src/Operationable.java",
+    "./code/lambdas/src/Printable.java"
   ]
 }

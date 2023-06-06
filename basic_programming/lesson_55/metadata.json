@@ -1,0 +1,27 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/java/generics/example01/CoverForIPhone.java",
+    "code/src/java/generics/example01/CoverForNokia.java",
+    "code/src/java/generics/example01/IPhone.java",
+    "code/src/java/generics/example01/Main.java",
+    "code/src/java/generics/example01/Nokia3310.java",
+    "code/src/java/generics/example02/Cover.java",
+    "code/src/java/generics/example02/IPhone.java",
+    "code/src/java/generics/example02/Main.java",
+    "code/src/java/generics/example02/Main2.java",
+    "code/src/java/generics/example02/Main3.java",
+    "code/src/java/generics/example02/Nokia3310.java",
+    "code/src/java/generics/example03/Cover.java",
+    "code/src/java/generics/example03/IPhone.java",
+    "code/src/java/generics/example03/Main.java",
+    "code/src/java/generics/example03/Nokia3310.java",
+    "code/src/java/generics/example04/Main.java",
+    "code/src/java/generics/example04/MyArrayList.java",
+    "code/src/java/generics/bad/Human.java",
+    "code/src/java/generics/bad/Main.java",
+    "code/src/java/generics/bad/Programmer.java"
+  ]
+}

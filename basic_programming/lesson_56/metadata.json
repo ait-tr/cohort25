@@ -1,0 +1,27 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/generics_part2/src/Main.java",
+    "./code/generics_part2/src/Animal.java",
+    "./code/generics_part2/src/Cage.java",
+    "./code/generics_part2/src/Tupperware.java",
+    "./code/generics_part2/src/TigerCage.java",
+    "./code/generics_part2/src/Tiger.java",
+    "./code/generics_part2/src/Person.java",
+    "./code/generics_part2/src/Pasta.java",
+    "./code/generics_part2/src/PandaCage.java",
+    "./code/generics_part2/src/Panda.java",
+    "./code/generics_part2/src/ObjectCage.java",
+    "./code/generics_part2/src/Food.java",
+    "./code/generics_part2/src/Dessert.java",
+    "./code/generics_part3/src/Main.java",
+    "./code/generics_part3/src/Chair.java",
+    "./code/generics_part3/src/Furniture.java",
+    "./code/generics_part3/src/Table.java",
+    "./code/generics_part4/src/Child.java",
+    "./code/generics_part4/src/Main.java",
+    "./code/generics_part4/src/Parent.java"
+  ]
+}

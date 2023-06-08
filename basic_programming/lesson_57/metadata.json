@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/array/Main.java",
+    "code/src/array/Main2.java",
+    "code/src/array/MyArrayList.java",
+    "code/src/array/MyList.java",
+    "code/src/nodes/Main.java",
+    "code/src/nodes/Main2.java",
+    "code/src/nodes/MyLinkedList.java",
+    "code/src/nodes/MyList.java",
+    "code/src/nodes/Node.java"
+  ]
+}

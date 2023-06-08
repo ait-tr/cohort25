@@ -22,7 +22,7 @@
 
 * Расширение массива
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_55/img/2.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_57/img/2.png)
 
 ```java
 public class ArrayList<E> implements List<E> {
@@ -74,11 +74,11 @@ public class ArrayList<E> implements List<E> {
 
 * Общая структура
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_55/img/3.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_57/img/3.png)
 
 * Добавление в начало
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_55/img/4.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/basic_programming/lesson_57/img/4.png)
 
 * Какие преимущества у связного списка (LinkedList)?
     - размер увеличивать не нужно

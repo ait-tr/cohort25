@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/varargs/src/Car.java",
+    "./code/varargs/src/Main.java",
+    "./code/treeSet_intro/src/Main.java",
+    "./code/treeSet_intro/src/Person.java"
+  ]
+}

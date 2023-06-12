@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/queue/src/Main.java",
+    "./code/treemap/src/Contact.java",
+    "./code/treemap/src/Main.java",
+    "./code/varargs_homework/src/Firm.java",
+    "./code/varargs_homework/src/Violin.java",
+    "./code/varargs_homework/src/Main.java"
+  ]
+}

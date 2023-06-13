@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/example01/Main.java",
+    "code/src/example01/MyArrayList.java",
+    "code/src/example01/MyLinkedList.java",
+    "code/src/example01/MyList.java",
+    "code/src/example02/Cover.java",
+    "code/src/example02/CoverObject.java",
+    "code/src/example02/Main.java",
+    "code/src/example02/Main2.java",
+    "code/src/example03/Main.java",
+    "code/src/example03/MyLinkedList.java",
+    "code/src/example03/MyList.java"
+  ]
+}

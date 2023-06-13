@@ -29,7 +29,7 @@
 Чтобы задать ваши имя и электронный адрес, следует воспользоваться командой `​git config`:​
 ```bash
 git config --global user.name "John Doe"
-git config --global user.email johndoe@example.com
+git config --global user.email johndoe@example03.com
 ```
 
 Убедиться в том, что настройки успешно установлены, можно, запросив их список при помощи команды ​`git config --list`.​
@@ -37,7 +37,7 @@ git config --global user.email johndoe@example.com
 Она выдает множество настроек, в том числе и только что установленные значения.
 ```
 user.name=John Doe
-user.email=johndoe@example.com
+user.email=johndoe@example03.com
 ```
 
 # Файл `.gitignore`

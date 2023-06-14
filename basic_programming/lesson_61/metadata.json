@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/stream_api/src/Main.java",
+    "./code/stream_api/src/Person.java",
+    "./code/stream_api/src/Rectangle.java"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/example01/EggThread.java",
+    "code/src/example01/HenThread.java",
+    "code/src/example01/Main.java",
+    "code/src/example02/Main.java",
+    "code/src/example03/CreditCard.java",
+    "code/src/example03/Human.java",
+    "code/src/example03/Main.java",
+    "code/src/example04/Main.java",
+    "code/src/example04/Main2.java",
+    "code/src/example04/Main3.java"
+  ]
+}

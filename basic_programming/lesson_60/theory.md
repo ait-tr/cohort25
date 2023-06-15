@@ -190,11 +190,11 @@ public class LinkedList<E> implements List<E> {
 
 ### Повторить 
 
-* lambda (на реальных примерах)
-  * Try-catch
-  * побитовые операции
-  * классы, вложенные классы (на реальных примерах), static
-  * итераторы
-  * Stream API
-  * Threads
-  * Method Reference
+* Stream API, Method Reference, lambda - изучено
+* побитовые операции - скинуть ссылки
+
+* итераторы
+* Threads
+* Try-catch - на проекте
+
+* классы, вложенные классы (на реальных примерах), static - факультатив

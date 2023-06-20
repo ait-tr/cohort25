@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/src/models/Good.java",
+    "code/src/models/Order.java",
+    "code/src/models/User.java",
+    "code/src/repositories/impl/GoodsRepositoryFakeImpl.java",
+    "code/src/repositories/impl/OrdersRepositoryFileImpl.java",
+    "code/src/repositories/impl/UsersRepositoryFakeImpl.java",
+    "code/src/repositories/CrudRepository.java",
+    "code/src/repositories/GoodsRepository.java",
+    "code/src/repositories/OrdersRepository.java",
+    "code/src/repositories/UsersRepository.java",
+    "code/src/services/IsPaidStatus.java",
+    "code/src/services/OrdersService.java",
+    "code/src/services/OrdersServiceImpl.java",
+    "code/src/Main.java",
+    "code/src/Main2.java"
+  ]
+}

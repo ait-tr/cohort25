@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/panda-project/index.html",
+    "./code/panda-project/images/china_flag.jpeg"
+  ],
+  "video": "",
+  "etc": ""
+}

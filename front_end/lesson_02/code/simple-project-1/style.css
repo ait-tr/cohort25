@@ -1,0 +1,52 @@
+h1 {
+    color: red;
+    text-align: right;
+}
+
+#css_h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.blue-words {
+    color: blue;
+}
+
+.about-myself {
+    font-style: italic;
+}
+
+p.about-myself {
+    color: brown;
+}
+
+.about-myself, .blue-words, #css_h1 {
+    background-color: gray;
+}
+
+.red {
+    color: red;
+}
+
+.large {
+    font-size: large;
+    color: blue;
+}
+
+#choice_a li {
+    background-color: green;
+}
+
+#choice_b li {
+    background-color: yellow;
+}
+
+#choices li li {
+    color: aqua;
+}
+
+TableProject

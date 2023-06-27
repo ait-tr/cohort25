@@ -1,7 +1,7 @@
 # CSS
 
 ### HTML tags, elements.
-Ссылка на презентацию: [CSS](https://github.com/ait-tr/cohort22/blob/main/front_end/lesson_2/css.pdf)
+Ссылка на презентацию: [CSS](https://github.com/ait-tr/cohort25/blob/main/front_end/lesson_02/css.pdf)
 
 ## Немного про id
 

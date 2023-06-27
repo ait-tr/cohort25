@@ -1,0 +1,43 @@
+/**
+     сделали стиль на всю таблицу
+ */
+table {
+    margin: 0 auto; /* чтобы была по центру */
+    color: #515256;
+    background: white;
+    border: 1px solid gray; /* стиль границ */
+    font-size: 12pt;
+    border-collapse: collapse; /* чтобы не было обрамления у текста */
+}
+
+/**
+     сделали отдельный цвет и шрифт для названия таблицы
+ */
+
+table caption {
+    color: #710e0e;
+    font-weight: bold;
+}
+
+/**
+     сделали отдельный цвет для шапки и подвала таблицы
+ */
+table thead th, table tfoot th {
+    color: slategrey;
+    background: #cacbd1;
+}
+
+/**
+     делаем границы между ячейками в таблице
+ */
+table th, table td {
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+/**
+    применяем цвет только к четным строкам таблицы
+ */
+table tbody tr:nth-of-type(odd)  {
+    background-color: #fcb2b2;
+}

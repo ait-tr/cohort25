@@ -1,0 +1,59 @@
+.red-box {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 50px;
+  border: solid black 5px;
+}
+
+/* margin - внешний отступ */
+/* padding - внутренний отступ */
+/* border - граница */
+
+.green-box {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  padding: 15px;
+  border: solid rgb(17, 84, 84) 10px;
+  border-radius: 30px;
+}
+
+/* как задать разные значения отступам */
+/* размер элемента padding X2 + border X2 + ширина контента  */
+.purple-box {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  /* первый способ */
+  /* margin-top: 20px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  margin-left: 15px; */
+  /* второй способ - все сразу */
+  margin: 20px 30px 10px 15px;
+  /* по часовой стрелке с верхнего */
+}
+/* более высокий приоритет */
+/* #purple-box{
+  margin: 5px;
+} */
+/* если приоритет одинаковый, то применяется нижний */
+
+.purple-box{
+  margin: 50px 20px;
+  /* 50 - верх и низ, 20 - лево, право */
+}
+
+.purple-box{
+  margin: 50px 20px 30px;
+  /* верх лево-право низ */
+  /* 50 - верх, 20 - лево и право, 30 низ */
+}
+
+.button {
+  /* border: none; убирает границу, если она была задана */
+  border: none;
+}

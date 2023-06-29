@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<form method="post" id="signUp-form">
+    <div>
+        <label>
+            Email<span class="required">*</span>
+            <input required type="email" placeholder="Введите email...">
+        </label>
+    </div>
+    <div>
+        <label>
+            Password<span class="required">*</span>
+            <input required type="password" placeholder="Введите пароль">
+        </label>
+    </div>
+    Ваш возраст:
+    <div>
+        <input id="age1" type="radio" name="age" value="0-18">
+        <label for="age1">0 - 18</label>
+    </div>
+    <div>
+        <input id="age2" type="radio" name="age" value="19-50">
+        <label for="age2">19 - 50</label>
+    </div>
+    <div>
+        <input id="age3" type="radio" name="age" value="50+">
+        <label for="age3">50+</label>
+    </div>
+    <div>
+        <label>
+            Способ связи с вами:
+            <select name="contact" form="signUp-form">
+                <option value="phone">По телефону</option>
+                <option value="email">По email</option>
+                <option value="whatsapp">Whatsapp</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <input type="color" id="favorite_color" name="color"
+               value="#e66465">
+        <label for="favorite_color">Любимый цвет</label>
+    </div>
+    <div>
+        <input type="range" id="friends_count" name="friends"
+               min="0" max="500">
+        <label for="friends_count">Количество друзей от 0 до 500</label>
+    </div>
+    <div>
+        <input type="date" id="birth_date" name="birthDate"
+               value="2000-01-01"
+               min="1900-01-01" max="2020-01-01">
+        <label for="birth_date">Дата рождения</label>
+    </div>
+    Согласны с условиями?
+    <div>
+        <input type="checkbox" id="agree1" name="agree_advertising" value="Yes">
+        <label for="agree1">Согласен на рекламу</label>
+        <br>
+        <input type="checkbox" id="agree2" name="agree_terms" value="Yes">
+        <label for="agree2">Согласен с условиями обработки данных</label>
+        <br>
+    </div>
+    <input type="submit" value="Сохранить">
+</form>
+</body>
+</html>

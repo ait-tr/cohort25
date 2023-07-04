@@ -1,0 +1,5 @@
+- Flexbox concept;
+- Flex-direction;
+- Flex-grow, flex-shrink, and flex-basis;
+- Justify-content and align-items;
+- Practice.

@@ -1,0 +1,3 @@
+- Functions declarations, anonymous functions, functional expressions, arrow functions;
+- Array methods (part 2);
+- JS Object, object literals, this.

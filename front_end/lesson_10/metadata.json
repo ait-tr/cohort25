@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/9_HW_10_07_2023/index.html",
+    "code/9_HW_10_07_2023/script.js",
+    "code/10_JS_Array_Object_Function_11_07_2023/index.html",
+    "code/10_JS_Array_Object_Function_11_07_2023/script.js"
+  ],
+  "video": "",
+  "etc": ""
+}

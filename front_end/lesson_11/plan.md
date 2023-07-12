@@ -1,0 +1,3 @@
+- JS objects;
+- Array methods;
+- Practice.

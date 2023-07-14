@@ -1,0 +1,6 @@
+- synchronous and asynchronous code
+- Event Loop;
+- setTimeout;
+- setInterval.
+- Promises;
+- then, catch, finally;

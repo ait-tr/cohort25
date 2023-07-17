@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+/* Уточняем какие input подходят */
+.input-container input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.357);
+}
+
+.done button.btn-done{
+    display: none;
+}

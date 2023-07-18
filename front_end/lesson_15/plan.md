@@ -1,0 +1,6 @@
+- Разбор ДЗ
+- Promises;
+- then
+- API
+- JSON
+- fetch

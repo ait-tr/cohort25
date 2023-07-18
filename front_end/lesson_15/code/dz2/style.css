@@ -1,0 +1,9 @@
+body{
+    background-color: azure;
+}
+#hello_block{
+    border: 1px solid bisque;
+    margin-top: 10px;
+    -webkit-box-shadow: 36px 28px 29px 9px rgba(100,95,86,0.42); 
+    box-shadow: 36px 28px 29px 9px rgba(100,95,86,0.42);
+}

@@ -9,11 +9,11 @@ let data=[];
 
 function loadTodo(){
     let response = fetch(url);
-    response.then((response)=>{
-        if(response.ok){
-            return response.json();
+    response.then((e)=>{
+        if(e.ok){
+            return e.json();
         } else {
-            throw new Error(response.status+" "+ response.statusText);
+            throw new Error(e.status+" "+ e.statusText);
             //Promise.reject(()=>{new Error(response.status+" "+ response.statusText)})
         }
     }).then((res)=>{

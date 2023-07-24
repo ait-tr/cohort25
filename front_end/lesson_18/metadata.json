@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/WeatherApp/index.html",
+"code/WeatherApp/script.js",
+"code/WeatherApp/style.css",
+"code/react/my-app/package-lock.json",
+"code/react/my-app/package.json",
+"code/react/my-app/public/index.html",
+"code/react/my-app/public/manifest.json",
+"code/react/my-app/public/robots.txt",
+"code/react/my-app/src/App.css",
+"code/react/my-app/src/App.js",
+"code/react/my-app/src/App.test.js",
+"code/react/my-app/src/index.css",
+"code/react/my-app/src/index.js",
+"code/react/my-app/src/reportWebVitals.js",
+"code/react/my-app/src/setupTests.js"
+  ],
+  "video": ""
+}

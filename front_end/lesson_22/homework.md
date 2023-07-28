@@ -1,1 +1,1 @@
-[ДЗ](https://drive.google.com/drive/folders/17jiPDDxZXX6x71iYOLHLWKeRJb6-0p7E?usp=sharing)
+[ДЗ](https://docs.google.com/document/d/1JA993qYgiqkggD9JXEwtMSZGKqhAbyflBWdQxBw-P74/edit?usp=sharing)

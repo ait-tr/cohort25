@@ -9,6 +9,8 @@ import Apple from './Apple/Apple';
 import Pizza from './Pizza/Pizza';
 import Pizza2 from './Pizza2/Pizza2';
 import Pizza3 from './Pizza3/Pizza3';
+import PetProcessing from './PetProcessing/PetProcessing';
+import DogCard from './DogCard/DogCard';
 
 
 const root = ReactDOM.createRoot(
@@ -23,6 +25,8 @@ root.render(
         <Pizza />
         <Counter />
         <Pizza3 />
+        <PetProcessing />
+        <DogCard />
 
     </>
   //</React.StrictMode>

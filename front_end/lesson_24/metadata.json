@@ -3,8 +3,6 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-"code/my-app/package-lock.json",
-"code/my-app/package.json",
 "code/my-app/public/index.html",
 "code/my-app/src/Activity/Activity.tsx",
 "code/my-app/src/App/App.css",

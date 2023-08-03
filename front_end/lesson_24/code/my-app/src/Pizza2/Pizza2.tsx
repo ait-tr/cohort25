@@ -11,6 +11,8 @@ export default function Pizza2():JSX.Element{
         setIngredients([...ingredients, ingredient]);
         user.name+="1";
         console.log(user);
+
+       
         
         
         //ingredients.push(ingredient);  !!! NOT WORKING
@@ -45,3 +47,9 @@ export default function Pizza2():JSX.Element{
       );
 
 }
+
+
+
+
+
+

@@ -1,4 +1,4 @@
 - Разбор ДЗ
-- повторить useEffect
-- react-router
+- Динамический роутинг
+- useParams()
 

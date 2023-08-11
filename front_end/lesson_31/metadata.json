@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/tic_tac_toe_10_08_2023/src/index.tsx",
+    "code/tic_tac_toe_10_08_2023/src/App.tsx",
+    "code/tic_tac_toe_10_08_2023/src/redux/store.ts",
+    "code/tic_tac_toe_10_08_2023/src/redux/gameSlice.ts",
+    "code/tic_tac_toe_10_08_2023/src/components/Board.tsx",
+    "code/tic_tac_toe_10_08_2023/src/components/Square.tsx"
+  ],
+  "video": ""
+}

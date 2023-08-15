@@ -82,3 +82,5 @@ Low_
 [Введение в тестирование](https://docs.google.com/presentation/d/1uGxtmykT3TCjq0Wm1Cpa88CQET1rDHzj/edit?usp=sharing&ouid=116447005932578256378&rtpof=true&sd=true)
 
 [Баг и баг-репорт](https://docs.google.com/presentation/d/1S-kzM5cG5wG4vq7vYEa2LnNuk_iIaSHo/edit?usp=sharing&ouid=116447005932578256378&rtpof=true&sd=true)
+
+[Bug Report Example](https://docs.google.com/spreadsheets/d/10J8fD6YPqIsl7iHJEQ7j32XLGym3wGLEZKfmmrdKw_0/edit?usp=sharing)

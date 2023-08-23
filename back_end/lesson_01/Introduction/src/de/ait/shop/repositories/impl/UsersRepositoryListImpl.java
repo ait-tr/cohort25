@@ -24,7 +24,7 @@ public class UsersRepositoryListImpl implements UsersRepository {
 
     @Override
     public List<User> findAll() {
-        return null;
+        return new ArrayList<>(users); // просто возвращаем копию списка
     }
 
     @Override

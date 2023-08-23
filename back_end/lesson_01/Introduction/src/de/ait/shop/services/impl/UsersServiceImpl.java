@@ -2,7 +2,9 @@ package de.ait.shop.services.impl;
 
 import de.ait.shop.models.User;
 import de.ait.shop.repositories.UsersRepository;
-import de.ait.shop.services.RegistrationService;
+import de.ait.shop.services.UsersService;
+
+import java.util.List;
 
 /**
  * 8/23/2023
@@ -10,14 +12,14 @@ import de.ait.shop.services.RegistrationService;
  *
  * @author Marsel Sidikov (AIT TR)
  */
-public class RegistrationServiceImpl implements RegistrationService {
+public class UsersServiceImpl implements UsersService {
     private final UsersRepository usersRepository; // зависимость на хранилище пользователей
 
-    public RegistrationServiceImpl(UsersRepository usersRepository) {
+    public UsersServiceImpl(UsersRepository usersRepository) {
         this.usersRepository = usersRepository;
     }
 
-    public User register(String email, String password) {
+    public User addUser(String email, String password) {
         if (email == null || email.equals("") || email.equals(" ")) { // валидируем email
             throw new IllegalArgumentException("Email не может быть пустым");
         }
@@ -37,5 +39,10 @@ public class RegistrationServiceImpl implements RegistrationService {
         usersRepository.save(user); // сохраняем пользователя в хранилище
 
         return user; // возвращаем пользователя как результат
+    }
+
+    @Override
+    public List<User> getAllUsers() {
+        return usersRepository.findAll(); // никакой дополнительной логики нет, просто запрашиваем у репозитория
     }
 }

@@ -2,7 +2,7 @@ package de.ait.shop.repositories;
 
 import java.util.List;
 
-// CRUD - Create, Read, Update, Delete
+// CRUD - Create, Read, Update, Delete (создать, прочитать, обновить, удалить)
 public interface CrudRepository<T> {
     T findById(Long id);
 

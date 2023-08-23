@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form id="contact-form">
+    <div>
+        <label>
+            Email
+            <input required type="email" placeholder="Введите email..." name="email">
+        </label>
+    </div>
+    <div>
+        <label>
+            Пароль
+            <input required type="password" placeholder="Введите пароль..." name="password">
+        </label>
+    </div>
+    <div>
+        Ваш возраст:
+        <div>
+            <input id="age1" type="radio" name="age" value="0-18">
+            <label for="age1">0 - 18</label>
+        </div>
+        <div>
+            <input id="age2" type="radio" name="age" value="19-50">
+            <label for="age2">19 - 50</label>
+        </div>
+        <div>
+            <input id="age3" type="radio" name="age" value="50+">
+            <label for="age3">50+</label>
+        </div>
+    </div>
+    <div>
+        <input type="color" id="favorite-color" name="color">
+        <label for="favorite-color">Любимый цвет</label>
+    </div>
+    <div>
+        <input type="date" id="birth-date" name="birthDate">
+        <label for="birth-date">Дата рождения</label>
+    </div>
+    <div>
+        <input type="range" min="0" max="500" id="friends-count" name="friendsCount">
+        <label for="friends-count">Количество друзей (от 0 до 500)</label>
+    </div>
+    <div>
+        <label>Способ связи с вами
+            <select name="contact" form="contact-form">
+                <option value="phone">Телефон</option>
+                <option value="email">Email</option>
+                <option value="Whatsapp">Whatsapp</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <input type="checkbox" id="agree1" name="agree_spam" value="Yes">
+        <label for="agree1">Согласны на Спам</label>
+    </div>
+    <div>
+        <input type="checkbox" id="agree2" name="agree_terms" value="Yes">
+        <label for="agree2">Согласны на Условия обработки данных</label>
+    </div>
+    <div>
+        <input type="checkbox" id="agree3" name="agree_rent" value="Yes">
+        <label for="agree3">Согласны на аренду вашей квартиры</label>
+    </div>
+    <div>
+        <input type="submit" value="Отправить!">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+#login {
+    border-radius: 30px;
+    border: none;
+    margin: 50px 20px 30px 40px;
+    background-color: #778D45;
+    height: 200px;
+    width: 300px;
+    font-size: 60px;
+    font-family: Arial;
+    color: white;
+    letter-spacing: -1px;
+}
+
+#registration {
+    /*height: 1000px;*/
+    /*width: 600px;*/
+    border-radius: 20px;
+    border: none;
+    margin: 100px 20px 0 60px;
+    background-color: #AEC09A;
+    padding: 63px;
+    font-size: 60px;
+    font-family: Arial;
+    color: white;
+    letter-spacing: -1px;
+}
+
+#login:hover,
+#registration:hover {
+    color: black;
+}
+
+body {
+    background-color: red;
+}

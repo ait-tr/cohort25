@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA25_FirstSeleniumProject/src/test/java/org/ait/qa25/OpenSiteTest.java",
+    "code/QA25_FirstSeleniumProject/build.gradle"
+  ],
+  "video": ""
+}

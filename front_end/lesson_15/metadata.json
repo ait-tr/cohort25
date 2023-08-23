@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/dz/index.html",
+"code/dz/script.js",
+"code/dz/style.css",
+"code/dz2/index.html",
+"code/dz2/script.js",
+"code/dz2/style.css",
+"code/fetch_demo/index.html",
+"code/fetch_demo/script.js",
+"code/fetch_demo/style.css"
+  ],
+  "video": ""
+}

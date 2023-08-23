@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/6_HW_Bootstrap_05_07_2023/index.html",
+    "code/6_HW_Bootstrap_05_07_2023/style.css",
+    "code/7_Bootstrap_Practice_05_07_2023/index.html",
+    "code/7_JS_Dom_05_07_2023/index.html",
+    "code/7_JS_Dom_05_07_2023/style.css",
+    "code/7_JS_Dom_05_07_2023/script.js"
+  ],
+  "video": "",
+  "etc": ""
+}

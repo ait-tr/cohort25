@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 auto;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    width: fit-content;
+    margin: 0 auto;
+}

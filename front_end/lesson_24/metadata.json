@@ -1,0 +1,29 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/my-app/public/index.html",
+"code/my-app/src/Activity/Activity.tsx",
+"code/my-app/src/App/App.css",
+"code/my-app/src/App/App.test.tsx",
+"code/my-app/src/App/App.tsx",
+"code/my-app/src/Apple/Apple.tsx",
+"code/my-app/src/Counter/Counter.tsx",
+"code/my-app/src/DogCard/DogCard.tsx",
+"code/my-app/src/index.css",
+"code/my-app/src/index.tsx",
+"code/my-app/src/Layout/Layout.tsx",
+"code/my-app/src/Message/Message.tsx",
+"code/my-app/src/MyApp/MyApp.tsx",
+"code/my-app/src/NavBar/NavBar.module.css",
+"code/my-app/src/NavBar/NavBar.tsx",
+"code/my-app/src/PetProcessing/PetProcessing.tsx",
+"code/my-app/src/PetRecord/PetRecord.module.css",
+"code/my-app/src/PetRecord/PetRecord.tsx",
+"code/my-app/src/Pizza/Pizza.tsx",
+"code/my-app/src/Pizza2/Pizza2.tsx",
+"code/my-app/src/Pizza3/Pizza3.tsx"
+],
+  "video": ""
+}

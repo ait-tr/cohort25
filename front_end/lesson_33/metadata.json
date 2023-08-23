@@ -1,0 +1,22 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/react-pizza/src/index.tsx",
+    "code/react-pizza/src/App.tsx",
+    "code/react-pizza/src/redux/store.js",
+    "code/react-pizza/src/redux/slices/cartSlice.js",
+    "code/react-pizza/src/redux/slices/filterSlice.js",
+    "code/react-pizza/src/redux/slices/searchSlice.js",
+    "code/react-pizza/src/redux/slices/itemsSlice.js",
+    "code/react-pizza/src/components/Header.tsx",
+    "code/react-pizza/src/components/HeaderCart.tsx",
+    "code/react-pizza/src/components/Logo.tsx",
+    "code/react-pizza/src/components/SearchForm.tsx",
+    "code/react-pizza/src/components/ParamBlock.tsx",
+    "code/react-pizza/src/components/Card.tsx",
+    "code/react-pizza/src/@types/assets.d.ts"
+  ],
+  "video": ""
+}

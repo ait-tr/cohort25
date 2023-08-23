@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poller One', cursive;
+    background-image: url('./Images/sky.jpg');
+    color: #eedb00;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(60, 69, 67, .6);
+    border-radius: 15px 15px 0 0;
+}
+
+footer {
+    background-color: rgba(60, 69, 67, .6);
+    border-radius: 0 0 15px 15px;
+    height: 6em;
+    position: relative;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding: .5em 0;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    margin: 5px 10px 0 5px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    margin: 5px 5px 0;
+    border: 1px solid #eedb00;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.right h2 {
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.right img {
+    width: 32%;
+}
+
+.bottomLeft {
+    border-bottom-left-radius: 15px;
+}
+
+.bottomRight {
+    border-bottom-right-radius: 15px;
+}
+
+.farGalaxy {
+    font-size: 2em;
+    letter-spacing: .2em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.left img {
+    box-shadow: rgba(60, 69, 67, .6) 10px 10px;
+}
+
+.button {
+    width: 11em;
+    height: 2em;
+    position: absolute;
+    left: 22em;
+    top: 2em;
+}
+
+.button > p {
+    font-size: .8em;
+    text-align: center;
+}
+
+.email {
+    color: #000;
+    font-size: 1.5em;
+    font-variant: small-caps;
+}
+
+.commonButton {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-color: rgba(204, 3, 35, .5);
+    cursor: pointer;
+}

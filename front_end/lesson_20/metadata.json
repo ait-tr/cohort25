@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/demo_react/package.json",
+"code/demo_react/public/index.html",
+"code/demo_react/src/App/App.css",
+"code/demo_react/src/App/App.test.tsx",
+"code/demo_react/src/App/App.tsx",
+"code/demo_react/src/index.css",
+"code/demo_react/src/index.tsx",
+"code/demo_react/src/Msg/Msg.tsx",
+"code/demo_react/src/react-app-env.d.ts",
+"code/dz/index.ts"
+  ],
+  "video": ""
+}

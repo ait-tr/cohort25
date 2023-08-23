@@ -1,0 +1,6 @@
+- Разбор ДЗ
+- Event Loop;
+- setTimeout;
+- setInterval.
+- Promises;
+- then

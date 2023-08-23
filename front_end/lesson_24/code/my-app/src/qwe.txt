@@ -1,0 +1,9 @@
+<Activity />
+        <Message msg='hello from index' title='qwe' />
+        <Pizza2 />
+        <Apple />
+        <Pizza />
+        <Counter />
+        <Pizza3 />
+        <PetProcessing />
+        <DogCard />

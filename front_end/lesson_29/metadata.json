@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/react-redux-weather-app-08-08-2023/src/index.tsx",
+    "code/react-redux-weather-app-08-08-2023/src/App.tsx",
+    "code/react-redux-weather-app-08-08-2023/src/redux/store.ts",
+    "code/react-redux-weather-app-08-08-2023/src/redux/weatherSlice.ts",
+    "code/react-redux-weather-app-08-08-2023/src/components/WeatherForm.tsx",
+    "code/react-redux-weather-app-08-08-2023/src/components/WeatherInfo.tsx"
+  ],
+  "video": ""
+}

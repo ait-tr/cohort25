@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+"code/my-app/public/index.html",
+"code/my-app/src/App/App.css",
+"code/my-app/src/App/App.test.tsx",
+"code/my-app/src/App/App.tsx",
+"code/my-app/src/Apple/Apple.tsx",
+"code/my-app/src/Counter/Counter.tsx",
+"code/my-app/src/index.css",
+"code/my-app/src/index.tsx",
+"code/my-app/src/Message/Message.tsx",
+"code/my-app/src/reportWebVitals.ts"
+  ],
+  "video": ""
+}

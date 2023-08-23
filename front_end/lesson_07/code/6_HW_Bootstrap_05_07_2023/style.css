@@ -1,0 +1,26 @@
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue, .green, .red, .orange, .yellow {
+    height: 100px;
+    /* text-align: center; */
+    font-size: 2em;
+    /* padding-top: 20px; */
+}

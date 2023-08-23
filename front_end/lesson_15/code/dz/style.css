@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#showImage{
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #19b9d8;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#helloImage {
+    display: none;
+}

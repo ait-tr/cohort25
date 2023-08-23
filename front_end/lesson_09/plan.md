@@ -1,0 +1,3 @@
+- Array: destructuring assignments;
+- Array replication (spread syntax);
+- Array's popular methods;

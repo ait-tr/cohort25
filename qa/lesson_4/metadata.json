@@ -4,7 +4,7 @@
   "homework": "homework.md",
   "code": [
     "code/FirstSeleniumProject/src/test/java/org/ait/qa25/OpenSiteTest.java",
-    "code/FirstSeleniumProject/src/test/java/org/ait/qa25/FindElementTests",
+    "code/FirstSeleniumProject/src/test/java/org/ait/qa25/FindElementTests.java",
     "code/FirstSeleniumProject/build.gradle"
   ],
   "video": ""

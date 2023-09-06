@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Регистрация</title>
+</head>
+<body>
+<h1>Интернет-магазин</h1>
+<h2>Введите свои данные</h2>
+<div>
+    <form action="http://localhost:8080/signUp" method="post">
+        <label>Имя
+            <input name="firstName" placeholder="Введите имя...">
+        </label>
+        <label>Фамилия
+            <input name="lastName" placeholder="Введите фамилию...">
+        </label>
+        <label>Email
+            <input name="email" placeholder="Введите email..." type="email">
+        </label>
+        <label>Пароль
+            <input name="password" placeholder="Введите пароль..." type="password">
+        </label>
+        <input type="submit" value="Регистрация">
+    </form>
+</div>
+</body>
+</html>

@@ -1,6 +1,8 @@
 ## Homework
 
-Добавить к проекту по тестированию [сайта](https://demowebshop.tricentis.com/) Logger и test suite
+Навести порядок в своем проекте. Запустить тест-сьюты в Firefox
+
+[Geckodriver download](https://github.com/mozilla/geckodriver/releases)
 
 [Testng documentation](https://testng.org/doc/documentation-main.html#introduction)
 

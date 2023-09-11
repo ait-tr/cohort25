@@ -19,7 +19,7 @@ public class UserHelper extends HelperBase{
     }
 
     public boolean isLoginLinkPresent() {
-        return isElementPresent(By.cssSelector("a:nth-child(4)"));
+        return isElementPresent(By.xpath("//a[.='LOGIN']"));
     }
 
     public void clickOnRegistrationButton() {

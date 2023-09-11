@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/fw/ApplicationManager.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/fw/HelperBase.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/fw/UserHelper.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/fw/ContactHelper.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/fw/HomePageHelper.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/models/User.java",
+    "code/QA25_Phonebook/src/main/java/org/ait/phonebook/models/Contact.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/TestBase.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/HomePageTests.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/CreateAccountTests.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/LoginTests.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/AddContactTests.java",
+    "code/QA25_Phonebook/src/test/java/org/ait/phonebook/RemoveContactTests.java",
+    "code/QA25_Phonebook/src/test/resources/testng.xml",
+    "code/QA25_Phonebook/src/test/resources/regr.xml",
+    "code/QA25_Phonebook/src/test/resources/logback.xml",
+    "code/QA25_Phonebook/build.gradle",
+    "code/QA25_Phonebook/.gitignore"
+  ],
+  "video": ""
+}

@@ -6,6 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+import java.io.IOException;
+
 public class LoginTests extends TestBase{
     @BeforeMethod
     public void ensurePrecondition() {
@@ -38,5 +41,20 @@ public class LoginTests extends TestBase{
         app.getUser().clickOnLoginButton();
         //assert Sign Out button present
         Assert.assertTrue(app.getUser().isAlertPresent());
+    }
+
+    @Test
+    public void loginPositiveTestWithScreencast() throws IOException, AWTException {
+        app.getUser().deleteScreencast();
+        app.getUser().startRecording();
+
+        app.getUser().fillLoginRegistrationFormForScreencast(new User()
+                .setEmail("leno@gmail.com")
+                .setPassword("Bernd1234$"));
+        app.getUser().clickOnLoginButtonForScreencast();
+        app.getUser().pause(2000);
+
+        app.getUser().stopRecording();
+
     }
 }

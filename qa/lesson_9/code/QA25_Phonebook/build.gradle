@@ -14,6 +14,7 @@ dependencies {
     implementation 'org.testng:testng:7.8.0'
 
     implementation 'ch.qos.logback:logback-classic:1.4.11'
+    implementation 'com.github.stephenc.monte:monte-screen-recorder:0.7.7.0'
 }
 
 test {

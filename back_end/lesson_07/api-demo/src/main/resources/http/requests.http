@@ -1,0 +1,15 @@
+### Получение пользователей
+
+GET localhost:8080/users
+
+### Добавление пользовтаеля
+
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "firstName": "User from IDEA",
+  "lastName": "Last name of IDEA",
+  "email": "user@jetbrains.com",
+  "password": "qwerty10"
+}

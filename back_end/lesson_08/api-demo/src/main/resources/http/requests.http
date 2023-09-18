@@ -1,0 +1,34 @@
+### Получение пользователей
+
+GET localhost:8080/api/users
+
+### Добавление пользовтаеля
+
+POST localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "firstName": "User from IDEA",
+  "lastName": "Last name of IDEA",
+  "email": "user@jetbrains.com",
+  "password": "qwerty10"
+}
+
+
+### Получение одного пользователя
+
+GET localhost:8080/api/users/1
+
+### Обновление пользователя
+
+PUT localhost:8080/api/users/1
+Content-Type: application/json
+
+{
+  "firstName": "MARSEL!!",
+  "lastName": "Sitdikov"
+}
+
+### Удаление пользователя
+
+DELETE http://localhost:8080/api/users/6

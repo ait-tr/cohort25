@@ -1,0 +1,11 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA25_Demoqa_POM/src/test/java/org/ait/demoqa/tests/TestBase.java",
+    "code/QA25_Demoqa_POM/.gitignore",
+    "code/QA25_Demoqa_POM/pom.xml"
+  ],
+  "video": ""
+}

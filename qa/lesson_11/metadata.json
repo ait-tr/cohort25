@@ -2,17 +2,17 @@
   "plan": "plan.md",
   "homework": "homework.md",
   "code": [
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/BasePage.java",
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/HomePage.java",
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/SidePanel.java",
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/LoginPage.java",
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/ProfilePage.java",
-   "code/QA26_Demoqa_POM/src/main/java/com/ait/demoqa/pages/BookStorePage.java",
-    "code/QA26_Demoqa_POM/src/test/java/com/ait/demoqa/tests/TestBase.java",
-    "code/QA26_Demoqa_POM/src/test/java/com/ait/demoqa/tests/LoginPageTests.java",
-    "code/QA26_Demoqa_POM/src/test/java/com/ait/demoqa/tests/SearchBookTests.java",
-    "code/QA26_Demoqa_POM/.gitignore",
-    "code/QA26_Demoqa_POM/pom.xml"
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/BasePage.java",
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/HomePage.java",
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/SidePanel.java",
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/LoginPage.java",
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/ProfilePage.java",
+   "code/QA25_Demoqa_POM/src/main/java/com/ait/demoqa/pages/BookStorePage.java",
+    "code/QA25_Demoqa_POM/src/test/java/com/ait/demoqa/tests/TestBase.java",
+    "code/QA25_Demoqa_POM/src/test/java/com/ait/demoqa/tests/LoginPageTests.java",
+    "code/QA25_Demoqa_POM/src/test/java/com/ait/demoqa/tests/SearchBookTests.java",
+    "code/QA25_Demoqa_POM/.gitignore",
+    "code/QA25_Demoqa_POM/pom.xml"
   ],
   "video": ""
 }

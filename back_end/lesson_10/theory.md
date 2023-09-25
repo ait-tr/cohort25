@@ -26,7 +26,7 @@
   * `@ExceptionHandler(value = RestException.class)` - помечаем метод, который будет "перехватывать" ошибки `RestException`
   * Эта штука очень похожа на `try-catch`, но работает более глобально (на уровне всего приложения)
 
-[image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_10/img/1.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_10/img/1.png)
 
 ## 04. Валидация
 
@@ -84,4 +84,4 @@
 }
 ```
 
-[image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_10/img/2.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_10/img/2.png)

@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/data/UserData.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/BasePage.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/HomePage.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/SidePanel.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/bookStore/BookStorePage.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/bookStore/ProfilePage.java",
+    "code/QA25_Demoqa_POM/src/test/java/org/ait/demoqa/tests/bookStore/AddBookToCollectionTests.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/elements/BrokenLinksImagesPage.java",
+    "code/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages/elements/LinksPage.java",
+    "code/QA25_Demoqa_POM/src/test/java/org/ait/demoqa/tests/elements/LinksTests.java"
+  ],
+  "video": ""
+}

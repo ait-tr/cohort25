@@ -1,0 +1,18 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/alertsFrameWindows/FramePage.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/alertsFrameWindows/NestedFramesPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/alertsFrameWindows/IframesTests.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/widgets/AutoCompletePage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/widgets/AutoCompleteTests.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/widgets/SliderPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/widgets/SliderTest.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/widgets/MenuPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/widgets/MenuTest.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/elements/ButtonsPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/elements/ButtonsTests.java"
+  ],
+  "video": ""
+}

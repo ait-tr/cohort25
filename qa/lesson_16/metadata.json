@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "homework": "homework.md",
+  "code": [
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/forms/PracticeFormPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/forms/PracticeFormTests.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/widgets/ToolTipsPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/widgets/ToolTipsTest.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/interactions/DroppablePage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/interactions/DropDragTests.java",
+    "code/DemoQA_POM/src/main/java/org/ait/demoqa/pages/elements/TextBoxPage.java",
+    "code/DemoQA_POM/src/test/java/org/ait/demoqa/tests/elements/TextBoxTest.java"
+  ],
+  "video": ""
+}

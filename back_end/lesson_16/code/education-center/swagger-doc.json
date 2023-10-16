@@ -1,0 +1,785 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Education Service API",
+    "version": "0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:8080",
+      "description": "Generated server url"
+    }
+  ],
+  "security": [
+    {
+      "CookieAuthentication": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Courses",
+      "description": "Работа с курсами"
+    }
+  ],
+  "paths": {
+    "/login": {
+      "post": {
+        "tags": [
+          "Authentication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/x-www-form-urlencoded": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailAndPassword"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешная аутентификация",
+            "headers": {
+              "Set-Cookie": {
+                "description": "Идентификатор сессии",
+                "example": "JSESSIONID=1234"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponseDto"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Неверный логин или пароль",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/StandardResponseDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/logout": {
+      "post": {
+        "tags": [
+          "Authentication"
+        ],
+        "responses": {
+          "200": {
+            "description": "Успешный выход"
+          }
+        }
+      }
+    },
+    "/api/courses/{course-id}/lessons/{lesson-id}": {
+      "put": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "updateLessonInCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "lesson-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateLessonDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/LessonDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "deleteLessonFromCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "lesson-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/LessonDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/users/register": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Регистрация пользователя",
+        "description": "Доступно всем. По умолчанию роль - USER",
+        "operationId": "register",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewUser"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "409": {
+            "description": "Пользователь с таким email уже есть",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка валидации",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationErrors"
+                }
+              }
+            }
+          },
+          "201": {
+            "description": "Пользователь зарегистрирован",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/courses": {
+      "get": {
+        "tags": [
+          "Courses"
+        ],
+        "summary": "Получение списка курсов",
+        "description": "Доступно всем пользователям",
+        "operationId": "getCourses",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Course"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Courses"
+        ],
+        "summary": "Создание курса",
+        "description": "Доступно менеджеру образовательного центра",
+        "operationId": "addCourse",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewCourse"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Курс был создан успешно",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Course"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Ошибка валидации",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ValidationErrors"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/courses/{course-id}/students": {
+      "get": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "getStudentsOfCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "addStudentToCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentToCourseDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/courses/{course-id}/lessons": {
+      "get": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "getLessonsOfCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/LessonDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Courses"
+        ],
+        "operationId": "addLessonToCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewLessonDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "*/*": {
+                "schema": {
+                  "$ref": "#/components/schemas/LessonDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/courses/{course-id}": {
+      "get": {
+        "tags": [
+          "Courses"
+        ],
+        "summary": "Получение курса",
+        "description": "Доступно всем пользователям",
+        "operationId": "getCourse",
+        "parameters": [
+          {
+            "name": "course-id",
+            "in": "path",
+            "description": "идентификатор курса",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            },
+            "example": 1
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Курс не найден",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Message"
+                }
+              }
+            }
+          },
+          "200": {
+            "description": "Запрос обработан успешно",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Course"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "EmailAndPassword": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string"
+          },
+          "password": {
+            "type": "string"
+          }
+        },
+        "description": "Email и пароль пользователя"
+      },
+      "StandardResponseDto": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Возможно: сообщение об ошибке, об изменении состояния и т.д.",
+            "example": "Не найден курс"
+          }
+        },
+        "description": "StandardResponseDto"
+      },
+      "UpdateLessonDto": {
+        "required": [
+          "dayOfWeek",
+          "finishTime",
+          "name",
+          "startTime"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "startTime": {
+            "type": "string"
+          },
+          "finishTime": {
+            "type": "string"
+          },
+          "dayOfWeek": {
+            "type": "string"
+          }
+        },
+        "description": "Поля для обновления, null-значения сохраняются в базе"
+      },
+      "LessonDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "name": {
+            "type": "string"
+          },
+          "startTime": {
+            "type": "string"
+          },
+          "finishTime": {
+            "type": "string"
+          },
+          "dayOfWeek": {
+            "type": "string"
+          },
+          "courseId": {
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      },
+      "NewUser": {
+        "required": [
+          "email",
+          "password"
+        ],
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email пользователя",
+            "example": "user@mail.com"
+          },
+          "password": {
+            "pattern": "^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@#$%^&+=!])(?=\\S+$).{8,}$",
+            "type": "string",
+            "description": "Пароль пользователя",
+            "example": "Qwerty007!"
+          }
+        },
+        "description": "Данные для регистрации"
+      },
+      "Message": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Возможно: сообщение об ошибке, об изменении состояния и т.д.",
+            "example": "Не найден курс"
+          }
+        },
+        "description": "Какое-либо сообщение с сервера"
+      },
+      "ValidationError": {
+        "type": "object",
+        "properties": {
+          "field": {
+            "type": "string",
+            "description": "название поля, в котором возникла ошибка",
+            "example": "price"
+          },
+          "rejectedValue": {
+            "type": "string",
+            "description": "значение, которое ввел пользовать и которое было отвергнуто сервером",
+            "example": "1000.0"
+          },
+          "message": {
+            "type": "string",
+            "description": "сообщение, которое мы должны показать пользователю",
+            "example": "must be less than or equal to 200"
+          }
+        },
+        "description": "Описание ошибки валидации"
+      },
+      "ValidationErrors": {
+        "type": "object",
+        "properties": {
+          "errors": {
+            "type": "array",
+            "description": "список ошибок валидации",
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        },
+        "description": "информация об ошибках валидации"
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "идентификатор пользователя",
+            "format": "int64",
+            "example": 1
+          },
+          "firstName": {
+            "type": "string",
+            "description": "имя пользователя",
+            "example": "Marsel"
+          },
+          "lastName": {
+            "type": "string",
+            "description": "фамилия пользователя",
+            "example": "Sidikov"
+          },
+          "email": {
+            "type": "string",
+            "description": "Email пользователя",
+            "example": "user@mail.com"
+          },
+          "role": {
+            "type": "string",
+            "description": "Роль пользователя",
+            "example": "USER"
+          }
+        },
+        "description": "Данные пользователя"
+      },
+      "NewCourse": {
+        "required": [
+          "description",
+          "title"
+        ],
+        "type": "object",
+        "properties": {
+          "title": {
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string",
+            "description": "название курса",
+            "example": "Java"
+          },
+          "description": {
+            "maxLength": 1000,
+            "minLength": 5,
+            "type": "string",
+            "description": "описание курса",
+            "example": "Курс по основам разработки на Java"
+          },
+          "beginDate": {
+            "pattern": "^(?:(?:19|20)\\d\\d)-(?:0[1-9]|1[0-2])-(?:0[1-9]|1\\d|2\\d|3[0-1])$",
+            "type": "string",
+            "description": "дата начала",
+            "example": "2022-02-02"
+          },
+          "endDate": {
+            "pattern": "^(?:(?:19|20)\\d\\d)-(?:0[1-9]|1[0-2])-(?:0[1-9]|1\\d|2\\d|3[0-1])$",
+            "type": "string",
+            "description": "дата окончания",
+            "example": "2023-02-02"
+          },
+          "price": {
+            "maximum": 200,
+            "minimum": 0,
+            "type": "number",
+            "description": "стоимость курса",
+            "format": "double",
+            "example": 50.0
+          }
+        }
+      },
+      "Course": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "идентификатор курса",
+            "format": "int64",
+            "example": 1
+          },
+          "title": {
+            "type": "string",
+            "description": "название курса",
+            "example": "Java"
+          },
+          "description": {
+            "type": "string",
+            "description": "описание курса",
+            "example": "Курс по основам разработки на Java"
+          },
+          "beginDate": {
+            "type": "string",
+            "description": "дата начала",
+            "example": "2022-02-02"
+          },
+          "endDate": {
+            "type": "string",
+            "description": "дата окончания",
+            "example": "2023-02-02"
+          },
+          "price": {
+            "type": "number",
+            "description": "стоимость курса",
+            "format": "double",
+            "example": 50.0
+          },
+          "state": {
+            "type": "string",
+            "description": "статус курса - DRAFT, PUBLISHED",
+            "example": "PUBLISHED"
+          }
+        },
+        "description": "Описание курса"
+      },
+      "StudentToCourseDto": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int64"
+          }
+        }
+      },
+      "NewLessonDto": {
+        "required": [
+          "dayOfWeek",
+          "finishTime",
+          "name",
+          "startTime"
+        ],
+        "type": "object",
+        "properties": {
+          "existsLessonId": {
+            "type": "integer",
+            "description": "Идентификатор существующего урока, если задано - остальные поля указывать не нужно",
+            "format": "int64"
+          },
+          "name": {
+            "type": "string"
+          },
+          "startTime": {
+            "type": "string"
+          },
+          "finishTime": {
+            "type": "string"
+          },
+          "dayOfWeek": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "cookieAuth": {
+        "type": "apiKey",
+        "name": "JSESSOINID",
+        "in": "cookie"
+      }
+    }
+  }
+}

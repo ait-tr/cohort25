@@ -9,6 +9,7 @@
     "code/QA25_FirstCucumberProject/src/test/resources/features/navigate.feature",
     "code/QA25_FirstCucumberProject/src/test/java/com/ilcarro/stepDefinitions/HomePageSteps.java",
     "code/QA25_FirstCucumberProject/src/main/java/com/ilcarro/pages/HomePage.java",
+    "code/QA25_FirstCucumberProject/src/test/resources/features/login.feature",
     "code/QA25_FirstCucumberProject/src/test/java/com/ilcarro/stepDefinitions/LoginSteps.java",
     "code/QA25_FirstCucumberProject/src/main/java/com/ilcarro/pages/LoginPage.java"
   ],

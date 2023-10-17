@@ -46,23 +46,23 @@ a quality model used to assess the quality of software and determines which char
 **Регрессионное(Regression)**
 
 ##### Классификация тестирования по знанию системы(based on system knowledge)
-**Черный ящик(Black-box)**
-**Серый ящик(Grey-box)**
-**Белый ящик(White-box)**
+- Черный ящик(Black-box)
+- Серый ящик(Grey-box)
+- Белый ящик(White-box)
 
 ##### Классификация тестирования по уровню автоматизации(by level of automation)
-**Ручное(Manual)**
-**Полу-автоматизированное(Semi-automated)**
-**Автоматизированное(Automated)**
+- Ручное(Manual)
+- Полу-автоматизированное(Semi-automated)
+- Автоматизированное(Automated)
 
 ##### Классификация тестирования по формализации(by formalization)
-**Свободное(Monkey,Ed-hoke)**
-**Исследовательское(Exploratory)**
-**Основанное на тест-кейсах(Test case based)**
+- Свободное(Monkey,Ed-hoke)
+- Исследовательское(Exploratory)
+- Основанное на тест-кейсах(Test case based)
 
 ##### Классификация тестирования по сценарию(by scenario)
-**Positive(Позитивное)**
-**Negative(Негативное)**
+- Positive(Позитивное)
+- Negative(Негативное)
 
 
 ## Тест процесс

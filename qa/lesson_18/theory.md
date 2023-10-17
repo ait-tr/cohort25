@@ -66,6 +66,8 @@ But
 6. Тестирование зависит от контекста
 7. Заблуждение об отсутствии ошибок
 
+## 7 principles of testing
+
 1. Tests show the presence of defects, not their absence
 2. Exhaustive testing is impossible(except in trivial cases)
 3. Early Testing saves time and money

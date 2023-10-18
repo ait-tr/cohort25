@@ -1,0 +1,14 @@
+Nested Loop  (cost=22.17..48.31 rows=26 width=2802) (actual time=0.049..0.052 rows=2 loops=1)
+  ->  Nested Loop  (cost=22.03..43.54 rows=26 width=1130) (actual time=0.041..0.042 rows=2 loops=1)
+        ->  Seq Scan on course  (cost=0.00..10.88 rows=1 width=1114) (actual time=0.021..0.022 rows=1 loops=1)
+              Filter: ((state)::text = 'PUBLISHED'::text)
+              Rows Removed by Filter: 1
+        ->  Bitmap Heap Scan on student_course  (cost=22.03..32.57 rows=9 width=16) (actual time=0.012..0.013 rows=2 loops=1)
+              Recheck Cond: (course_id = course.id)
+              Heap Blocks: exact=1
+              ->  Bitmap Index Scan on student_course_pkey  (cost=0.00..22.03 rows=9 width=0) (actual time=0.008..0.008 rows=2 loops=1)
+                    Index Cond: (course_id = course.id)
+  ->  Index Scan using account_pkey on account  (cost=0.14..0.18 rows=1 width=1672) (actual time=0.004..0.004 rows=1 loops=2)
+        Index Cond: (id = student_course.student_id)
+Planning Time: 0.254 ms
+Execution Time: 0.107 ms

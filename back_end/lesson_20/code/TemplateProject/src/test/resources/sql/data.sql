@@ -1,0 +1,1 @@
+insert into account(email, hash_password, role) values ('sidikov.marsel@gmail.com', 'qwerty007', 'USER')

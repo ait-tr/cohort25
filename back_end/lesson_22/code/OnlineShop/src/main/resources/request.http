@@ -1,0 +1,21 @@
+POST https://api.dropboxapi.com/2/check/user
+Content-Type: application/json
+Authorization: Bearer
+
+{
+  "query": "simple"
+}
+
+###
+
+## "C:\Users\marse\Desktop\file.txt"
+POST localhost:8080/files
+
+###
+
+POST https://content.dropboxapi.com/2/files/upload
+Content-Type: application/octet-stream
+Authorization: Bearer
+Dropbox-API-Arg: {"autorename":false, "mode":"add","mute":false,"path":"/ait/file.txt","strict_conflict":false}
+
+<"C:\Users\marse\Desktop\file.txt"

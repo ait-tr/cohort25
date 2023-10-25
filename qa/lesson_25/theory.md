@@ -42,3 +42,5 @@ Environment variables exist separately from collections. Local variables are cre
 QA21 ilCarro collection https://api.postman.com/collections/8263422-6a8276b6-47d5-4a57-ae3f-dbaec5f202d6?access_key=PMAT-01HDK8EWG3TQDKQZM80Q89X0MD
 
 [Swagger ilcarro](https://ilcarro-backend.herokuapp.com/swagger-ui/index.html#/)
+
+[Презентация](https://docs.google.com/presentation/d/1MQScNG0ov11tGNFSFt5mDV-Gp5f-pQF8iiHMPTzBClk/edit?usp=share_link)

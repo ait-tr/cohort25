@@ -1,6 +1,6 @@
 ## Отправка email по почте
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_22/img/1.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_23/img/1.png)
 
 ## 00. Замечания и определения
 

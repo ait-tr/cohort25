@@ -1,6 +1,6 @@
 ## 01. Загрузка файлов
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort23/main/back_end/lesson_25/img/1.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort25/main/back_end/lesson_23/img/1.png)
 * 
 * Если загружать все файлы пользователей, то сильно возрастает нагрузка на сервер
     * Потому что все запросы на получение файлов будут проходить через нас

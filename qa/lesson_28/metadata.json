@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "code": [
+    "code/QA25_PhonebookAPI/build.gradle",
+    "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/TestBase.java",
+    "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/LoginTestsRA.java",
+    "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/GetAllContactTestsRA.java",
+    "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/AddContactTestsRA.java",
+    "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/DeleteAllContactsTestsRA.java"
+  ],
+  "homework": "homework.md",
+  "video": ""
+}

@@ -1,5 +1,6 @@
 {
   "plan": "plan.md",
+  "theory": "theory.md",
   "code": [
     "code/QA25_PhonebookAPI/build.gradle",
     "code/QA25_PhonebookAPI/src/test/java/com/ait/tests/restAssured/TestBase.java",

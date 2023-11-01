@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "code": [
+    "code/QA25_FirstMobileProject/build.gradle",
+    "code/QA25_FirstMobileProject/src/main/java/com/remindly/fw/ApplicationManager.java",
+    "code/QA25_FirstMobileProject/src/main/java/com/remindly/fw/BaseHelper.java",
+    "code/QA25_FirstMobileProject/src/main/java/com/remindly/fw/MainScreenHelper.java",
+    "code/QA25_FirstMobileProject/src/test/java/com/reminder/tests/TestBase.java",
+    "code/QA25_FirstMobileProject/src/test/java/com/reminder/tests/MainScreenTests.java"
+  ],
+  "video": ""
+}

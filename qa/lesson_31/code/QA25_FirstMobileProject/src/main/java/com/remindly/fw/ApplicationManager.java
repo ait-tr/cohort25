@@ -20,6 +20,7 @@ public class ApplicationManager {
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("automationName","Appium");
+        //  capabilities.setCapability("browserName","chrome");
         capabilities.setCapability("deviceName","mob");
         capabilities.setCapability("appPackage","com.blanyal.remindly");
         capabilities.setCapability("appActivity","com.blanyal.remindme.MainActivity");
@@ -28,6 +29,7 @@ public class ApplicationManager {
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
+        //driver.get("");
         mainScreen = new MainScreenHelper(driver);
         reminder = new ReminderHelper(driver);
     }
